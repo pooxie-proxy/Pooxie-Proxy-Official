@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <link rel="shortcut icon" id="dynamic-favicon" href="favicon.png">
+    <title id="dynamic-title">Classes</title>
+    <script src="/scripts/wisdom.js?v=1"></script>
+   <!-- Meta Data-->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="Computer Science, Technology, Photography, Nature, Tech Support, Tech Help, Local Tech Support">
+   <!-- Site Stylesheets-->
+   <link rel="stylesheet" href="/css/m.css">
+   <link rel="stylesheet" href="/css/settings.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <!-- Main Site Scripts-->
+   <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
+</head>
+<!-- Nav Bar Start-->
+<div class="fixed-nav-bar">
+  <a class="icon" href="/./"><img id="INImg" src="main.png"></a>
+    <div class="fixed-nav-bar-right">
+        <a class="navbar-link" href="/./events"><i class="fa-solid fa-gamepad navbar-icon bugrot-icon"></i>Games</a>      
+        <a class="navbar-link" href="/./news"><i class="fa-solid fa-gift navbar-icon bugrot-icon"></i>Apps</a>
+        <a class="navbar-link" href="https://docs.google.com/document/d/1Kgdm4FLFkQAFChptymQBb5mDZebCQ9Bmf1MR_gQXtAY/edit?usp=sharing"><i class="fa-solid fa-bug navbar-icon bugrot-icon"></i>Exploits</a>
+        <a class="navbar-link" href="/./local-news"><i class="fa-solid fa-magnifying-glass navbar-icon searot-icon"></i>Browse</a>
+        <a class="navbar-link" href="/./diagnostic"><i class="fa-solid fa-gear navbar-icon settings-icon"></i>Settings</a>
+        <a class="navbar-link" href="https://docs.google.com/document/d/1ZWOmg-eufiuBCMQq56kltfoPHtx47pGo717PJRoz62w/edit?usp=sharing"><i class="fa-solid fa-circle-question navbar-icon settings-icon"></i>Request Feature / Help</a>
+     </div></div></div></div>
+  <!-- Nav Bar End-->
+      <head>
+  <link rel="stylesheet" href="pookieProx.css">
+    
+    <style>
+::placeholder {
+  color: var(--colpal1);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: var(--colpal1);
+}
+    
+</style>
+
+      <link>
+    </head>
+<div class="main">
+   <div class="settings-container">
+      <div class="settings-card">
+         <h3>About:Blank</h3>
+         <p>Cloak the site in an about:blank page.</p>
+         <button onclick="AB()">Open Popup</button>
+      </div>
+          <div class="settings-card">
+        <h3>Set Panic Key</h3>
+        <p>Quickly open a educational site, when the teacher comes.</p>
+        <input type="text" id="eventKeyInput" placeholder="Panic Key" class="key-form">
+        <input class="key-form" placeholder="Panic Link" type="text" id="linkInput" value>
+  <button class="key-button" value="Save" onclick="saveEventKey()">Save</button>
+          </input>
+      </div>
+       <div class="settings-card">
+        <h3>Set Background Image</h3>
+        <p>Change the site's background image.</p>
+         <input type="text" id="background-input" placeholder="Enter image URL">
+         <button class="key-button" id="save-button">Save</button>
+         <button class="key-button" id="reset-button">Reset</button>
+      </div>
+            <div class="settings-card">
+        <h3>Tab Cloaker</h3>
+        <p>Makes the site look educational.</p>
+    <select id="dropdown" onchange="handleDropdownChange(this)">
+    <option value="Classroom">Default</option>
+    <option value="Classroom">Google Classroom</option>
+    <option value="Google">Google</option>
+    <option value="Drive">Google Drive</option>
+    <option value="Clever">Clever</option>
+    <option value="Schoology">Schoology</option>
+    <option value="Gmail">Gmail</option>
+    <option value="Khan">Khan Academy</option>
+</select>
+    <input class="key-form" type="text" id="icon" placeholder="Change Tab Icon" name="icon">
+    <input class="key-form" type="text" id="name" name="name" placeholder="Change Tab Name">
+    <button class="key-button" value="Save" onclick="saveIcon(); saveName(); redirectToMainDomain()">Save</button>
+      </div>
+        <div class="settings-card">
+         <h3>Particles</h3>
+         <p>Add the particles from the previous version to the new site.</p>
+         <label class="switch">
+         <input type="checkbox" class="slider-checkbox" id="2">
+         <span class="slider-round"></span>
+         </label>
+      </div>
+      <div class="settings-card">
+         <h3>Themes!</h3>
+         <p>Choose through a selection of themes!</p>
+         <select placeholder="Solid Color Themes" id="dropdown" class="td" onchange="themeChange(this)">
+            <option disabled selected>Solid Color Themes</option>
+            <option value="d">Default (The link's color)</option>
+            <option value="regular">Regular (The original proxy theme)</option>
+            <option value="midnight">Dark Mode</option>
+            <option value="light">Light Mode</option>
+            <option value="ocean-blue">Ocean Blue</option>
+            <option disabled selected>Gradient Themes</option>
+            <option value="black-red">Black Red</option>
+            <option value="black-blue">Black Blue</option>
+            <option value="black-green">Black Green</option>
+            <option value="black-purple">Black Purple</option>
+            <option value="black-coral">Black Coral</option>
+            <option value="black-ruby">Black Ruby</option>
+            <option value="black-orange">Black Orange</option>
+            <option value="black-yellow">Black Yellow</option>
+            <option value="black-pink">Black Pink</option>
+            <option value="black-white">Black White</option>
+            <option value="red">Red</option>
+            <option value="purple">Purple</option>
+            <option value="dark-purple">Dark Purple</option>
+            <option value="purple-blue">Purple Blue</option>
+            <option value="sunset">Sunset</option>
+            <option value="indigo">Indigo</option>
+            <option value="fire-ice">Fire and Ice</option>
+            <option disabled selected>Bonus Themes</option>
+            <option value="v4">Legacy V4 Theme</option>
+         </select>
+      </div>
+   </div>
+</div>
+   <!--- Advertisement Start-->
+   <script type='text/javascript' src='//amuletcheek.com/0a/70/64/0a706460ed00d21a37b6d751dc6410ea.js'></script>
+   <!-- Advertisement End-->
+<script src="/scripts/edu.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+<script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   
+   gtag('config', 'G-WKJQ5QHQTJ');
+</script>
+</body>
