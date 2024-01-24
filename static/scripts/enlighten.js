@@ -1608,7 +1608,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Scratch",
       link: "https://scratch.mit.edu",
       image: "/images/icons/scratch.jpg",
-      categories: ["all", "social", "game", "media", ""],
+      categories: ["all", "social", "game", "media"],
       error: false
     },
     {
@@ -1823,14 +1823,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Discord - Login",
-      link: "https://canary.discord.com/login",
-      image: "/images/icons/discord.jpg",
-      categories: ["all", "social"],
-      blank: "true",
-      error: false
-    },
-    {
       name: "HD Today",
       link: "https://hdtoday.tv",
       image: "/images/icons/hd.png",
@@ -1904,18 +1896,19 @@ document.addEventListener('DOMContentLoaded', () => {
       say: "The web version might be down",
       error: false
     },
-    {
-      name: "Opera GX",
-      link: "https://www.poodleschool.net/home-pages/miscellaneous/poodle-browser"
-      image: "/images/icons/IMG_1369.webp",
+       {
+      name: "Google Chrome",
+      link: "https://www.browserling.com/browse/win10/chrome119/poodleschool.net",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1200px-Google_Chrome_icon_%28February_2022%29.svg.png",
       categories: ["all"],
       say: "The web version might be down",
       error: false
     },
+    
     {
-      name: "Google Chrome",
-      link: "https://www.browserling.com/browse/win10/chrome119/poodleschool.net"
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1200px-Google_Chrome_icon_%28February_2022%29.svg.png",
+      name: "Opera GX",
+      link: "https://www.poodleschool.net/home-pages/miscellaneous/poodle-browser",
+      image: "/images/icons/IMG_1369.webp",
       categories: ["all"],
       say: "The web version might be down",
       error: false
