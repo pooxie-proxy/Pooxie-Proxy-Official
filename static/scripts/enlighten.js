@@ -1,14 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "! Request A Game [UPDATED]",
-      link: "https://forms.gle/xoz22C7GgTrdQMvr8",
-      image: "/images/icons/request.webp",
-      categories: ['all'],
-      error: false,
-      say: "Lmango63 is good on calories and juice goods"
-    },
-    {
       name: "Dynast.io",
       link: "https://dynast.io",
       image: "/images/icons/dynast-io.png",
