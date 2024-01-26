@@ -7,8 +7,8 @@ try {
 }
     // Define a simple object to store username-password pairs
     var users = {
-      "user1": "password1",
-      "user2": "password2",
+      "pooxieuser": "iamnotafuckingitadmin",
+      "pooxieadmin": "adminsricky",
       // Add more users as needed
     };
 
@@ -17,17 +17,15 @@ try {
       var username = prompt("Please enter your username:");
       var password = prompt("Please enter your password:");
 
-      // Check if the entered username and password are valid
       if (username === null || password === null || users[username] !== password) {
-        // If the user cancels or enters incorrect credentials, redirect to the specified link
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
       } else {
-        // If the credentials are correct, show a success message
+        // Show the body content after successful authentication
+        document.body.style.display = "block";
         alert("Login successful!");
       }
     }
 
-    // Call authenticateUser when the body of the document has loaded
     window.onload = authenticateUser;
 
 // Cloaking Code
