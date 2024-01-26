@@ -1,3 +1,10 @@
+let inFrame
+
+try {
+    inFrame = window !== top
+} catch (e) {
+    inFrame = true
+}
     // Define a simple object to store username-password pairs
     var users = {
       "user1": "password1",
@@ -22,13 +29,6 @@
 
     // Call authenticateUser when the body of the document has loaded
     window.onload = authenticateUser;
-let inFrame
-
-try {
-    inFrame = window !== top
-} catch (e) {
-    inFrame = true
-}
 
 // Cloaking Code
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
