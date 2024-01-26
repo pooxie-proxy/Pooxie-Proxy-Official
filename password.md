@@ -1,7 +1,7 @@
 To provent silly assholes like IT admins, we force password protection on all links.
 # <br>By default the username to access the proxy is 'pooxieuser' and the password 'iamnotafuckingitadmin'<br>
 # How to change (Yes, we recomend it)
-1. Go to /static/script/password.js
+1. Go to /static/scripts/scholary.js
 2. At the top you should see some javascript in between <script> tags
 3. Where you see
    var users = {
