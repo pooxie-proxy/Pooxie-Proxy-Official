@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <head>
   <script>
-    var password = prompt("This page is protected by a password, Please enter it now.");
-        if (password=="zanysunscreenteal") {
-            //location = "media.html"
-          
-        }
-        else 
-        {
-          document.getElementById("msg").value = "test";  
-          location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        }
+    // Define a simple object to store username-password pairs
+    var users = {
+      "pooxieuser": "iamnotafuckingitadmin",
+      "pooxieadmin": "",
+      // Add more users as needed
+    };
+
+    function authenticateUser() {
+      // Prompt the user for a username and password
+      var username = prompt("Please enter your username:");
+      var password = prompt("Please enter your password:");
+
+      // Check if the entered username and password are valid
+      if (username === null || password === null || users[username] !== password) {
+        // If the user cancels or enters incorrect credentials, redirect to the specified link
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      } else {
+        // If the credentials are correct, show a success message
+        alert("Login successful!");
+      }
+    }
+
+    // Call authenticateUser when the body of the document has loaded
+    window.onload = authenticateUser;
   </script>
   <script src="/scripts/scholarly.js"></script>
   <!-- Site Data-->
