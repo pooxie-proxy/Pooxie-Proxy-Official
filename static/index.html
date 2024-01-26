@@ -9,16 +9,12 @@
     };
 
     function authenticateUser() {
-      // Prompt the user for a username and password
       var username = prompt("Please enter your username:");
       var password = prompt("Please enter your password:");
 
-      // Check if the entered username and password are valid
       if (username === null || password === null || users[username] !== password) {
-        // If the user cancels or enters incorrect credentials, redirect to the specified link
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
       } else {
-        // If the credentials are correct, show a success message
         alert("Login successful!");
       }
     }
