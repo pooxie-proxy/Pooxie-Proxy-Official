@@ -10,17 +10,6 @@ const app = express(server);
 const bareServer = createBareServer('/outerspace/');
 const PORT = 8080;
 
-var password = prompt("This page is protected by a password, Please enter it now.");
-        if (password=="zanysunscreenteal") {
-            //location = "media.html"
-          
-        }
-        else 
-        {
-          document.getElementById("msg").value = "test";  
-          //location = "error.html"
-        }
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
