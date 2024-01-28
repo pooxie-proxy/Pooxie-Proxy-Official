@@ -1905,6 +1905,14 @@ document.addEventListener('DOMContentLoaded', () => {
       say: "The web version might be down",
       error: false
     },
+    {
+      name: "Retro Bowl College",
+      link: "https://retrobowlcollege.io/retro-bowl-college/retro-bowl-college.embed",
+      image: "/images/icons/downloadpooxieai.png",
+      categories: ["all"],
+      say: "This game might get taken down by legal companies becuase it promotes illegal activities",
+      error: false
+    },
   ];
   
   function saveToLocal(path) {
