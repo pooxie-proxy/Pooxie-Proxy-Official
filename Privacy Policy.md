@@ -6,6 +6,7 @@ Pooxie Proxy is committed to protecting your privacy. This privacy policy outlin
 
 - **No User Data Collection:** Pooxie Proxy does not collect any personal information or track user interactions while using the service.
 - **Anonymity:** We do not log IP addresses, browsing history, or any user activity. Your online activities remain anonymous and untracked.
+- **Notice:** While Pooxie Proxy does not collect user information, it is important to realize that some hosting providers (Such as cyclic) record network (what content is loading) logs. These logs are available to the link hoster and the hosting provider. However, network logs (unlike their name) cannot track any internet activity such as visiting a website or any keystrokes, they just track what content is loading
 
 ## Data Usage
 
