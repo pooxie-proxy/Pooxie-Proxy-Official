@@ -14,8 +14,8 @@ try {
 
     function authenticateUser() {
       // Prompt the user for a username and password
-      var username = prompt("Please enter your username:");
-      var password = prompt("Please enter your password:");
+      var username = prompt("Did you learn Algebra User++ with Happy numbers?");
+      var password = prompt("Are you are favorite password?");
 
       if (username === null || password === null || users[username] !== password) {
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
@@ -33,7 +33,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Please allow popups and redirects.")
+        alert("Popups make you learn!")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
