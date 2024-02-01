@@ -3,7 +3,7 @@
 <center><img src=/static/main_inverted.png
           <b>
           <div class="title">
-          Pookie Proxy</b><br>
+          Pooxie Proxy</b><br>
           </div>
           <b>Welcome to Pooxie Proxy. By using our service, You agree to our <a href="https://github.com/pooxie-proxy/Pooxie-Proxy-Official/blob/main/Terms%20and%20conditions.md">T.A.C</a> And <a href="https://github.com/pooxie-proxy/Pooxie-Proxy-Official/blob/main/Privacy%20Policy.md">P.P.</a><br></b>
 <a href="https://www.patreon.com/PookieProxy">Support this community supporting the downfall of internet censorship by donating</a></center>
