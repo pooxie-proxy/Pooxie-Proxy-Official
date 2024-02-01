@@ -23,6 +23,7 @@ try {
         // Show the body content after successful authentication
         document.body.style.display = "block";
         alert("Login successful!");
+        window.location.href = "authindex.html";
       }
     }
 
