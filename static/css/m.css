@@ -18,7 +18,6 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-	display: none; /* Initially hide the entire body */
 }
 
 /* Scrollbar */
