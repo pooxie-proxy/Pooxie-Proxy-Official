@@ -22,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
 	font-family: 'arconregular';
+    display: none; /* Initially hide the entire body */
 }
 
 .title {
