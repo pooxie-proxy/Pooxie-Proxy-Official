@@ -24,6 +24,8 @@ try {
         document.body.style.display = "block";
         alert("Login successful!");
         window.location.href = "authindex.html";
+        if (username === "pooxieadmin") {
+          window.location.href = "/dev/";
       }
     }
 
