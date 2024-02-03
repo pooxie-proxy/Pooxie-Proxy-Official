@@ -1,5 +1,12 @@
-<script src="/scripts/scholarly.js"></script>
-   <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/scripts/scholarly.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Numbers</title>
+    <link rel=icon src="https://happynumbers.com/favicon.ico">
+    <style>
         #imageContainer {
             width: 100%;
             height: 100vh;
@@ -16,14 +23,18 @@
 </head>
 <body>
     <div id="imageContainer">
-        <img id="myImage" src="" alt="Image">
+        <img id="myImage" src="https://kippbaltimore.org/wp-content/uploads/2020/04/Happy.jpg" alt="Image">
     </div>
 
     <script>
-        const imageContainer = document.getElementById('imageContainer');
         const imageElement = document.getElementById('myImage');
         let imageIndex = 0; // starting index
-        const images = ['https://static.happynumbers.com/card-preview/302897_25479_391582.png', 'https://static.happynumbers.com/card-preview/302901_25483_351830.png', 'https://static.happynumbers.com/card-preview/302900_25482_348898.png', 'https://static.happynumbers.com/card-preview/302902_25484_348825.png']; // add more images here
+        const images = [
+            'https://static.happynumbers.com/card-preview/302897_25479_391582.png',
+            'https://static.happynumbers.com/card-preview/302901_25483_351830.png',
+            'https://static.happynumbers.com/card-preview/302900_25482_348898.png',
+            'https://static.happynumbers.com/card-preview/302902_25484_348825.png'
+        ]; // add more images here
 
         function switchImage() {
             imageIndex = (imageIndex + 1) % images.length;
@@ -36,4 +47,5 @@
         // Initialize with the first image
         switchImage();
     </script>
-
+</body>
+</html>
