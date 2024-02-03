@@ -15,17 +15,20 @@ try {
     function authenticateUser() {
       // Prompt the user for a username and password
       var username = prompt("Did you learn Algebra User++ with Happy numbers?");
-      var password = prompt("Are you are favorite password?");
+      var password = prompt("Are you our favorite password?");
 
       if (username === null || password === null || users[username] !== password) {
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
       } else {
-        // Show the body content after successful authentication
-        document.body.style.display = "block";
         alert("Login successful!");
+
+        // Redirect to authindex.html for all users
         window.location.href = "authindex.html";
+
+        // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
           window.location.href = "/dev/";
+        }
       }
     }
 
