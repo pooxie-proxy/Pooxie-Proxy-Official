@@ -1953,6 +1953,30 @@ document.addEventListener('DOMContentLoaded', () => {
       say: "This is a now.gg game so, yeah",
       error: false
     },
+    {
+      name: "Genshin Impact [NG]",
+      link: "https://now.gg/apps/cognosphere-pte-ltd-/1773/genshin-impact.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.miHoYo.GenshinImpact%2Ficon%2Fgenshin-impact.png&w=128&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Grand Theft Auto [PCG]",
+      link: "https://playclassic.games/games/action-adventure-dos-games-online/play-grand-theft-auto-online/play/",
+      image: "https://upload.wikimedia.org/wikipedia/en/e/e7/GTA_-_Box_Front.jpg",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
+    {
+      name: "Legend of Zelda (first edition) [PCG]",
+      link: "https://playclassic.games/games/role-playing-nes-games-online/the-legend-of-zelda/play/",
+      image: "https://static.wikia.nocookie.net/nintendo/images/5/51/The_Legend_of_Zelda_%28NA%29.png/revision/latest?cb=20111024000400&path-prefix=en",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
   ];
   
   function saveToLocal(path) {
