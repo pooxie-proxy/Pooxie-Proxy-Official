@@ -1914,11 +1914,43 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Roblox",
+      name: "Roblox [NG]",
       link: "https://now.gg/apps/roblox-corporation/5349/roblox.html",
       image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.roblox.client%2Ficon%2Froblox.png&w=256&q=80",
-      categories: ["all"],
-      say: "This game might get taken down by legal companies becuase it promotes illegal activities",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Fortnite [NG]",
+      link: "https://now.gg/apps/epic-games/7308/fortnite.htmll",
+      image: "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/3TPUBXH34VG67FZ6NKG5NLZHXU.png",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "App store (Aptoide) [NG]",
+      link: "https://now.gg/apps/aptoide/5874/aptoide.htmll",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.aptoide.partners.nowgg.store%2Ficon%2Faptoide.png&w=256&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Five nights at freddy [NG]",
+      link: "https://now.gg/apps/scott-cawthon/51750/five-nights-at-freddy-s.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.nowgg.h5.pub501.app51750%2Ficon%2Ffive-nights-at-freddy-s.png&w=128&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "App store (Aptoide) [NG]",
+      link: "https://now.gg/apps/innersloth-llc/4047/among-us.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.innersloth.spacemafia%2Ficon%2Famong-us.png&w=256&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
       error: false
     },
   ];
