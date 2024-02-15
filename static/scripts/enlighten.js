@@ -1946,9 +1946,9 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "App store (Aptoide) [NG]",
-      link: "https://now.gg/apps/innersloth-llc/4047/among-us.html",
-      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.innersloth.spacemafia%2Ficon%2Famong-us.png&w=256&q=80",
+      name: "Krunker [NG]",
+      link: "https://now.gg/apps/yendis-entertainment/51644/krunker.html",
+      image: "https://yt3.googleusercontent.com/QQ4sFJjSxp9y54tx5ygCqHUysN-eCFaeFf3y2EGCuPIFIjB6CFNh7DebKJXemuo9x32zOTUvqg=s900-c-k-c0x00ffffff-no-rj",
       categories: ["nowgg"],
       say: "This is a now.gg game so, yeah",
       error: false
