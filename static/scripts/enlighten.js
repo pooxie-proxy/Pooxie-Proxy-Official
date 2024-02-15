@@ -1913,6 +1913,14 @@ document.addEventListener('DOMContentLoaded', () => {
       say: "This game might get taken down by legal companies becuase it promotes illegal activities",
       error: false
     },
+    {
+      name: "Roblox",
+      link: "https://now.gg/apps/roblox-corporation/5349/roblox.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.roblox.client%2Ficon%2Froblox.png&w=256&q=80",
+      categories: ["all"],
+      say: "This game might get taken down by legal companies becuase it promotes illegal activities",
+      error: false
+    },
   ];
   
   function saveToLocal(path) {
