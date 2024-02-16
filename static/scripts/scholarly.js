@@ -32,6 +32,7 @@ try {
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
           window.location.href = "/dev/";
+        }
         if (username === "pooxieuser") {
           window.location.href = "/index.html";
           alert('Logins are now by school! Please talk to your provider for your schools login or ask for your school to be added.')
