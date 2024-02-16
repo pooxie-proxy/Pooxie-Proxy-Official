@@ -1926,8 +1926,8 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://now.gg/apps/epic-games/7308/fortnite.htmll",
       image: "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/3TPUBXH34VG67FZ6NKG5NLZHXU.png",
       categories: ["nowgg"],
-      say: "This is a now.gg game so, yeah",
-      error: false
+      say: "This website tends to break as soon as you visit it",
+      error: true
     },
     {
       name: "App store (Aptoide) [NG]",
@@ -1973,6 +1973,37 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Legend of Zelda (first edition) [PCG]",
       link: "https://playclassic.games/games/role-playing-nes-games-online/the-legend-of-zelda/play/",
       image: "https://static.wikia.nocookie.net/nintendo/images/5/51/The_Legend_of_Zelda_%28NA%29.png/revision/latest?cb=20111024000400&path-prefix=en",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
+    {
+      name: "Call of Duty [NG]",
+      link: "https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html",
+      image: "https://cdn6.aptoide.com/imgs/8/e/0/8e0cd8552270598d066043b5c037718e_icon.png",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Big Tower Tiny Square [CM]",
+      link: "https://www.coolmathgames.com/0-big-tower-tiny-square/play",
+      image: "https://www.coolmathgames.com/sites/default/files/BigTowerTinySquare_OG-logo.jpg",
+      categories: ["cmg"],
+      error: false
+    },
+    {
+      name: "Legend Of Zelda: A Link to the past [PCG]",
+      link: "https://playclassic.games/games/role-playing-rpg-snes-games-online/play-the-legend-of-zelda-a-link-to-the-past-online/play/",
+      image: "https://playclassic.games/wp-content/uploads/2019/04/The-Legend-of-Zelda-A-Link-to-the-Past.jpg",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
+    {
+      name: "Legend Of Zelda: Link's Awakening [PCG]",
+      link: "https://playclassic.games/games/role-playing-rpg-snes-games-online/play-the-legend-of-zelda-a-link-to-the-past-online/play/",
+      image: "https://playclassic.games/wp-content/uploads/2020/07/The-Legend-of-Zelda-Links-Awakening.jpg",
       categories: ["pcg", "emu"],
       say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
       error: false
