@@ -1913,6 +1913,70 @@ document.addEventListener('DOMContentLoaded', () => {
       say: "This game might get taken down by legal companies becuase it promotes illegal activities",
       error: false
     },
+    {
+      name: "Roblox [NG]",
+      link: "https://now.gg/apps/roblox-corporation/5349/roblox.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.roblox.client%2Ficon%2Froblox.png&w=256&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Fortnite [NG]",
+      link: "https://now.gg/apps/epic-games/7308/fortnite.htmll",
+      image: "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/3TPUBXH34VG67FZ6NKG5NLZHXU.png",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "App store (Aptoide) [NG]",
+      link: "https://now.gg/apps/aptoide/5874/aptoide.htmll",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.aptoide.partners.nowgg.store%2Ficon%2Faptoide.png&w=256&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Five nights at freddy [NG]",
+      link: "https://now.gg/apps/scott-cawthon/51750/five-nights-at-freddy-s.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.nowgg.h5.pub501.app51750%2Ficon%2Ffive-nights-at-freddy-s.png&w=128&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Krunker [NG]",
+      link: "https://now.gg/apps/yendis-entertainment/51644/krunker.html",
+      image: "https://yt3.googleusercontent.com/QQ4sFJjSxp9y54tx5ygCqHUysN-eCFaeFf3y2EGCuPIFIjB6CFNh7DebKJXemuo9x32zOTUvqg=s900-c-k-c0x00ffffff-no-rj",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Genshin Impact [NG]",
+      link: "https://now.gg/apps/cognosphere-pte-ltd-/1773/genshin-impact.html",
+      image: "https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.miHoYo.GenshinImpact%2Ficon%2Fgenshin-impact.png&w=128&q=80",
+      categories: ["nowgg"],
+      say: "This is a now.gg game so, yeah",
+      error: false
+    },
+    {
+      name: "Grand Theft Auto [PCG]",
+      link: "https://playclassic.games/games/action-adventure-dos-games-online/play-grand-theft-auto-online/play/",
+      image: "https://upload.wikimedia.org/wikipedia/en/e/e7/GTA_-_Box_Front.jpg",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
+    {
+      name: "Legend of Zelda (first edition) [PCG]",
+      link: "https://playclassic.games/games/role-playing-nes-games-online/the-legend-of-zelda/play/",
+      image: "https://static.wikia.nocookie.net/nintendo/images/5/51/The_Legend_of_Zelda_%28NA%29.png/revision/latest?cb=20111024000400&path-prefix=en",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
   ];
   
   function saveToLocal(path) {
