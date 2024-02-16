@@ -52,6 +52,34 @@
     </style>
   </head>
   <body>
+<script>
+  // Set the inactivity timeout in milliseconds (3 minutes = 180000 milliseconds)
+var inactivityTimeout = 180000; // 3 minutes
+
+// Set the redirect URL
+var redirectUrl = '/502.html';
+
+// Variable to store the timeout ID
+var inactivityTimer;
+
+// Function to reset the inactivity timer
+function resetInactivityTimer() {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = setTimeout(function() {
+        // Redirect to the specified URL after inactivity
+        window.location.href = redirectUrl;
+    }, inactivityTimeout);
+}
+
+// Event listeners to reset the inactivity timer on user activity
+document.addEventListener('mousemove', resetInactivityTimer);
+document.addEventListener('keydown', resetInactivityTimer);
+document.addEventListener('click', resetInactivityTimer);
+
+// Initial setup of the inactivity timer
+resetInactivityTimer();
+
+</script>
     <iframe src="" id="iframeId" style="bottom: 0" style="border: 0px #ffffff none" name="Iframe" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="100%" width="100%" allowfullscreen></iframe>
 
     <button onclick="reload()" class="navbtn"> <i class="fa-solid fa-rotate-right"></i> </button>

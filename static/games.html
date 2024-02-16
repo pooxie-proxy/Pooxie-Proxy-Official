@@ -21,6 +21,34 @@
     <script src="/scripts/enlighten.js"> </script>
   </head>
   <body>
+<script>
+  // Set the inactivity timeout in milliseconds (3 minutes = 180000 milliseconds)
+var inactivityTimeout = 180000; // 3 minutes
+
+// Set the redirect URL
+var redirectUrl = '/502.html';
+
+// Variable to store the timeout ID
+var inactivityTimer;
+
+// Function to reset the inactivity timer
+function resetInactivityTimer() {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = setTimeout(function() {
+        // Redirect to the specified URL after inactivity
+        window.location.href = redirectUrl;
+    }, inactivityTimeout);
+}
+
+// Event listeners to reset the inactivity timer on user activity
+document.addEventListener('mousemove', resetInactivityTimer);
+document.addEventListener('keydown', resetInactivityTimer);
+document.addEventListener('click', resetInactivityTimer);
+
+// Initial setup of the inactivity timer
+resetInactivityTimer();
+
+</script>
 <!-- Nav Bar Start-->
 <div class="fixed-nav-bar">
   <a class="icon" href="/./authindex.html"><img id="INImg" src="main.png"></a>

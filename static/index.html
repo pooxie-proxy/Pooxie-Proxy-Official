@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Centers That Deliver | Happy numbers</title>
-    <link rel="icon" type="image/x-icon" href="https:/happynumbers.com/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://happynumbers.com/favicon.ico">
     <style>
         #imageContainer {
             width: 100%;
@@ -18,6 +18,80 @@
         #myImage {
             max-width: 100%;
             max-height: 100%;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            font-family: 'Lato', sans-serif;
+            color: black;
+        }
+        body {
+            background-color: #f7f7f7;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            background-color: #1E1E1E;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+            color:white;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #000;
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            button {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+            }
         }
     </style>
 </head>
