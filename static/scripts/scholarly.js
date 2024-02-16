@@ -8,6 +8,10 @@ try {
     // Define a simple object to store username-password pairs
     var users = {
       "pooxieuser": "iamnotafuckingitadmin",
+      "sum": "summitmiddleschool",
+      "hor": "horizonsk-8school",
+      "sumner": "sumnermiddleschool",
+      "cre": "creeksideelementryschool",
       "pooxieadmin": "adminsricky",
       // Add more users as needed
     };
@@ -28,6 +32,9 @@ try {
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
           window.location.href = "/dev/";
+        if (username === "pooxieuser") {
+          window.location.href = "/index.html";
+          alert('Logins are now by school! Please talk to your provider for your schools login or ask for your school to be added.')
         }
       }
     }
