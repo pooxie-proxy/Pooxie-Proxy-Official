@@ -25,6 +25,7 @@ try {
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
       } else {
         alert("Login successful!");
+        alert('Warning! Remove your Home accounts from your school computer before May 1st, when google launches their BIG update on their account system.')
 
         // Redirect to authindex.html for all users
         window.location.href = "authindex.html";
@@ -35,7 +36,9 @@ try {
         }
         if (username === "pooxieuser") {
           window.location.href = "/index.html";
-          alert('Logins are now by school! Please talk to your provider for your schools login or ask for your school to be added.')
+          let text =
+            "You have been logged out of your account:/n/nLogins are now by school! Please talk to your provider for your schools login info or to be added.";
+          alert(text)
         }
       }
     }
@@ -46,7 +49,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Popups make you learn!")
+        alert("Popups make you learn!!!!!!!1")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
