@@ -35,7 +35,7 @@ try {
         }
         if (username === "pooxieuser") {
           window.location.href = "/index.html";
-          alert('You have been logged out of your account:                      Logins are now by school! Please talk to your provider for your schools login or ask for your school to be added.')
+          alert('You have been logged out of your account:/n/nLogins are now by school! Please talk to your provider for your schools login or ask for your school to be added.')
         }
       }
     }
