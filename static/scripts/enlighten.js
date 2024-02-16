@@ -1992,6 +1992,22 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["cmg"],
       error: false
     },
+    {
+      name: "Legend Of Zelda: A Link to the past [PCG]",
+      link: "https://playclassic.games/games/role-playing-rpg-snes-games-online/play-the-legend-of-zelda-a-link-to-the-past-online/play/",
+      image: "https://playclassic.games/wp-content/uploads/2019/04/The-Legend-of-Zelda-A-Link-to-the-Past.jpg",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
+    {
+      name: "Legend Of Zelda: Link's Awakening [PCG]",
+      link: "https://playclassic.games/games/role-playing-rpg-snes-games-online/play-the-legend-of-zelda-a-link-to-the-past-online/play/",
+      image: "https://playclassic.games/wp-content/uploads/2020/07/The-Legend-of-Zelda-Links-Awakening.jpg",
+      categories: ["pcg", "emu"],
+      say: "This is a PC game On ChromeBook (will probs crash) so, yeah",
+      error: false
+    },
   ];
   
   function saveToLocal(path) {
