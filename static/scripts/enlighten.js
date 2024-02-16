@@ -1992,13 +1992,6 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["cmg"],
       error: false
     },
-    {
-      name: "Big Tower Tiny Square [CM]",
-      link: "https://www.coolmathgames.com/0-big-tower-tiny-square/play",
-      image: "https://www.coolmathgames.com/sites/default/files/BigTowerTinySquare_OG-logo.jpg",
-      categories: ["cmg"],
-      error: false
-    },
   ];
   
   function saveToLocal(path) {
