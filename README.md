@@ -1,6 +1,6 @@
-<center>Pooxie Proxy V3.5</center>
-<center># PASSWORD PROTECTION IS NOW OUT! Read more in Password.md
-# Want something in Pooxie Proxy?
+<center>Pooxie Proxy V3.5</center><br>
+<center># PASSWORD PROTECTION IS NOW OUT! Read more in Password.md<br>
+# Want something in Pooxie Proxy?<br>
 You don't even need to code! Just open a Pull request if you have the code and a issue if you dont.
 
 <a href="https://github.com/pooxie-proxy/Pooxie-Proxy-Official/blob/main/README.md">README</a> <a href="https://github.com/pooxie-proxy/Pooxie-Proxy-Official/blob/main/Terms%20and%20conditions.md">Terms and conditions</a> <a href="https://github.com/pooxie-proxy/Pooxie-Proxy-Official/blob/main/Privacy%20Policy.md">Privacy Policy</a>
