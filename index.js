@@ -22,9 +22,11 @@ const routes = [
   { path: '/diagnostic', file: 'settings.html' },
   { path: '/local-news', file: 'tabs.html' },
   { path: '/image-galleries', file: 'go.html' },
-  { path: '/student/login/--bob--ross', file: 'authindex.html' },
   { path: '/student/login/--farmer--ross', file: '/dev/index.html' },
   { path: '/student/cdn/--farmer--hess', file: 'legacyV4.png' },
+  { path: '/?loggedin=.?referalcode=1324', file: 'authindex.html' },
+  { path: '/parent/webv3.5/dir/var/bin/temp4/privacy.v12.3/cap?access=9096', file: 'privacy.md' },
+  { path: '/parent/webv3.5/dir/var/bin/temp4/terms.v12.3/cap?access=9096', file: 'terms.md' },
 ];
 
 app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
