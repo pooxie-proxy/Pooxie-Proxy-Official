@@ -24,7 +24,7 @@ const routes = [
   { path: '/image-galleries', file: 'go.html' },
   { path: '/student/login/--bob--ross', file: 'authindex.html' },
   { path: '/student/login/--farmer--ross', file: '/dev/index.html' },
-  { path: '/student/cdn/--farmer--hess', file: 'legacyv4.png' },
+  { path: '/student/cdn/--farmer--hess', file: 'legacyV4.png' },
 ];
 
 app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
