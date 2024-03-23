@@ -24,7 +24,7 @@ const routes = [
   { path: '/image-galleries', file: 'go.html' },
   { path: '/student/login/--farmer--ross', file: '/dev/index.html' },
   { path: '/student/cdn/--farmer--hess', file: 'legacyV4.png' },
-  { path: '/?loggedireferalcodeihyg1324/', file: 'authindex.html' },
+  { path: '/loggedireferalcodeihyg1324/', file: 'authindex.html' },
   { path: '/parent/webv3.5/dir/var/bin/temp4/privacy.v12.3/cap.access=9096', file: 'privacy.md' },
   { path: '/parent/webv3.5/dir/var/bin/temp4/terms.v12.3/cap.access=9096', file: 'terms.md' },
 ];
