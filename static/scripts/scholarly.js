@@ -31,7 +31,8 @@ function authenticateUser() {
             window.location.href = "/dev/";
         }
         if (username === "pooxieuser") {
-            alert('A unknown error occured while connecting to the HappyNumbers bare server.')
+            alert('A unknown error occured while connecting to the HappyNumbers bare server. Try logging in again. If the issue persists, please contact Happy Numbers support.')
+            window.location.href = "index.html";
         }
     } else {
         // Invalid username or password, redirect to a different page
