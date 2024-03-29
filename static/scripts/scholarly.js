@@ -5,45 +5,49 @@ try {
 } catch (e) {
     inFrame = true
 }
-    // Define a simple object to store username-password pairs
-    var users = {
-      "pooxieuser": "iamnotafuckingitadmin",
-      "sum": "summitmiddleschool",
-      "hor": "horizonsk-8school",
-      "sumner": "sumnermiddleschool",
-      "cre": "creeksideelementryschool",
-      "pooxieadmin": "adminsricky",
-      // Add more users as needed
-    };
+// Define a simple object to store username-password pairs
+var users = {
+    "pooxieuser": "iamnotafuckingitadmin",
+    "sum": "summitmiddleschool",
+    "hor": "horizonsk-8school",
+    "sumner": "sumnermiddleschool",
+    "cre": "creeksideelementryschool",
+    "pooxieadmin": "adminsricky",
+    // Add more users as needed
+};
 
-    function authenticateUser() {
-      // Prompt the user for a username and password
-      var username = prompt("Did you learn Algebra User++ with Happy numbers?");
-      var password = prompt("Are you our favorite password?");
+function authenticateUser() {
+    // Retrieve username and password from input fields
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-      if (username === null || password === null || users[username] !== password) {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-      } else {
+    // Check if username and password are in the users object
+    if (username in users && users[username] === password) {
         alert("Login successful!");
-        alert('Warning! Remove your Home accounts from your school computer before May 1st, when google launches their BIG update on their account system.')
+        alert('Warning! Remove your Home accounts from your school computer before May 1st, when google launches their BIG update on their account system.');
 
         // Redirect to authindex.html for all users
         window.location.href = "authindex.html";
 
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
-          window.location.href = "/dev/";
+            window.location.href = "/dev/";
         }
         if (username === "pooxieuser") {
-          window.location.href = "/index.html";
-          let text =
-            "You have been logged out of your account:/n/nLogins are now by school! Please talk to your provider for your schools login info or to be added.";
-          alert(text)
+            window.location.href = "/index.html";
+            let text = "You have been logged out of your account:\n\nLogins are now by school! Please talk to your provider for your school's login info or to be added.";
+            alert(text);
         }
-      }
+    } else {
+        // Invalid username or password, redirect to a different page
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     }
+}
 
-    window.onload = authenticateUser;
+window.onload = function() {
+    // You can add additional initialization here if needed
+};
+
 
 // Cloaking Code
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
