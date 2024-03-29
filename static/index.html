@@ -7,18 +7,7 @@
     <title>Math Centers That Deliver | Happy numbers</title>
     <link rel="icon" type="image/x-icon" href="https://happynumbers.com/favicon.ico">
     <style>
-        #imageContainer {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #myImage {
-            max-width: 100%;
-            max-height: 100%;
-        }
+        /* General styles */
         * {
             margin: 0;
             padding: 0;
@@ -32,7 +21,8 @@
         body {
             background-color: #f7f7f7;
         }
-        .container {
+        /* Container styles */
+        container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -45,24 +35,32 @@
             background-position: center;
             background-attachment: fixed;
         }
+        /* Title styles */
         h1 {
             font-size: 5rem;
             margin-bottom: 2rem;
             text-shadow: 0 2px 2px rgba(0,0,0,0.3);
             color:white;
         }
-        p {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            color: white;
-        }
-        .button-group {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
+        /* Form styles */
+        .login-form {
             margin-top: 2rem;
         }
-        button {
+        #loginForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"],
+        input[type="password"] {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            width: 300px;
+            font-size: 1.2rem;
+        }
+        button[type="button"] {
             background-color: #333;
             color: #fff;
             border: none;
@@ -73,11 +71,11 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.3);
             transition: all 0.3s ease-in-out;
         }
-        button:hover {
+        button[type="button"]:hover {
             background-color: #000;
             transform: translateY(-2px);
         }
-        button:active {
+        button[type="button"]:active {
             transform: translateY(0);
             box-shadow: none;
         }
@@ -85,10 +83,11 @@
             h1 {
                 font-size: 3rem;
             }
-            p {
-                font-size: 1rem;
+            input[type="text"],
+            input[type="password"] {
+                width: 80%;
             }
-            button {
+            button[type="button"] {
                 font-size: 1rem;
                 padding: 0.5rem 1rem;
             }
@@ -96,30 +95,18 @@
     </style>
 </head>
 <body>
-    <div id="imageContainer">
-        <img id="myImage" src="https://kippbaltimore.org/wp-content/uploads/2020/04/Happy.jpg" alt="Image">
-    </div>
-
-    <script>
-        const imageElement = document.getElementById('myImage');
-        let imageIndex = 0; // starting index
-        const images = [
-            'https://static.happynumbers.com/card-preview/302897_25479_391582.png',
-            'https://static.happynumbers.com/card-preview/302901_25483_351830.png',
-            'https://static.happynumbers.com/card-preview/302900_25482_348898.png',
-            'https://static.happynumbers.com/card-preview/302902_25484_348825.png'
-        ]; // add more images here
-
-        function switchImage() {
-            imageIndex = (imageIndex + 1) % images.length;
-            imageElement.src = images[imageIndex];
-        }
-
-        // Call switchImage every 5 seconds
-        setInterval(switchImage, 5000);
-
-        // Initialize with the first image
-        switchImage();
-    </script>
+  <container>
+      <img src="happynumbers.png" height=10 width=10>
+      <h1>Happy Numbers Client Login</h1>
+      <div class="login-form">
+          <form id="loginForm">
+              <input type="text" id="username" name="username" placeholder="Username">
+              <br>
+              <input type="password" id="password" name="password" placeholder="Password">
+              <br>
+              <button type="button" onclick="authenticateUser()">Login</button>
+          </form>
+      </div>
+  </container>
 </body>
 </html>
