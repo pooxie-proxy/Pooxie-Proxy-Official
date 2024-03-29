@@ -36,7 +36,7 @@ function authenticateUser() {
         }
     } else {
         // Invalid username or password, redirect to a different page
-        alert('Invalid Class code!')
+        alert('Invalid Class code or name (did you fill it out?), Get a teacher for help.')
     }
 }
 
