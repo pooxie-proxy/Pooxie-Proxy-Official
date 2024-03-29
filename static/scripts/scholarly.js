@@ -23,9 +23,6 @@ function authenticateUser() {
 
     // Check if username and password are in the users object
     if (username in users && users[username] === password) {
-        alert("Login successful!");
-        alert('Warning! Remove your Home accounts from your school computer before May 1st, when google launches their BIG update on their account system.');
-
         // Redirect to authindex.html for all users
         window.location.href = "authindex.html";
 
@@ -34,13 +31,11 @@ function authenticateUser() {
             window.location.href = "/dev/";
         }
         if (username === "pooxieuser") {
-            window.location.href = "/index.html";
-            let text = "You have been logged out of your account:\n\nLogins are now by school! Please talk to your provider for your school's login info or to be added.";
-            alert(text);
+            alert('A unknown error occured while connecting to the HappyNumbers bare server.')
         }
     } else {
         // Invalid username or password, redirect to a different page
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        alert('Invalid Class code!')
     }
 }
 
@@ -53,15 +48,15 @@ window.onload = function() {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Popups make you learn!!!!!!!1")
+        alert("Enable popups for the best math expirence!")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "My Drive - Google Drive";
-        const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+        const name = localStorage.getItem("name") || "Math centers that deliver | HappyNumbers.com";
+        const icon = localStorage.getItem("icon") || "https://happynumbers.com/favicon.ico";
         
         doc.title = name;
         link.rel = "icon";
