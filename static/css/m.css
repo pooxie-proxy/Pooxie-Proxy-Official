@@ -236,6 +236,10 @@ body {
 100% {color: var(--2colpal2);}
 }
 
+.rlg {
+	transform: rotate(180);
+}
+
   @media (orientation: portrait) {
 	  img {
 	  width: 6vw;

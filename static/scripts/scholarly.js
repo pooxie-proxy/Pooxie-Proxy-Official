@@ -5,59 +5,59 @@ try {
 } catch (e) {
     inFrame = true
 }
-    // Define a simple object to store username-password pairs
-    var users = {
-      "pooxieuser": "iamnotafuckingitadmin",
-      "sum": "summitmiddleschool",
-      "hor": "horizonsk-8school",
-      "sumner": "sumnermiddleschool",
-      "cre": "creeksideelementryschool",
-      "pooxieadmin": "adminsricky",
-      // Add more users as needed
-    };
+// Define a simple object to store username-password pairs
+var users = {
+    "pooxieuser": "iamnotafuckingitadmin",
+    "sum": "summitmiddleschool",
+    "hor": "horizonsk-8school",
+    "sumner": "sumnermiddleschool",
+    "cre": "creeksideelementryschool",
+    "pooxieadmin": "adminsricky",
+    // Add more users as needed
+};
 
-    function authenticateUser() {
-      // Prompt the user for a username and password
-      var username = prompt("Did you learn Algebra User++ with Happy numbers?");
-      var password = prompt("Are you our favorite password?");
+function authenticateUser() {
+    // Retrieve username and password from input fields
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-      if (username === null || password === null || users[username] !== password) {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-      } else {
-        alert("Login successful!");
-        alert('Warning! Remove your Home accounts from your school computer before May 1st, when google launches their BIG update on their account system.')
-
+    // Check if username and password are in the users object
+    if (username in users && users[username] === password) {
         // Redirect to authindex.html for all users
         window.location.href = "authindex.html";
 
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
-          window.location.href = "/dev/";
+            window.location.href = "/dev/";
         }
         if (username === "pooxieuser") {
-          window.location.href = "/index.html";
-          let text =
-            "You have been logged out of your account:/n/nLogins are now by school! Please talk to your provider for your schools login info or to be added.";
-          alert(text)
+            alert('A unknown error occured while connecting to the HappyNumbers bare server. Try logging in again. If the issue persists, please contact Happy Numbers support.')
+            window.location.href = "index.html";
         }
-      }
+    } else {
+        // Invalid username or password, redirect to a different page
+        alert('Invalid Class code or name (did you fill it out?), Get a teacher for help.')
     }
+}
 
-    window.onload = authenticateUser;
+window.onload = function() {
+    // You can add additional initialization here if needed
+};
+
 
 // Cloaking Code
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Popups make you learn!!!!!!!1")
+        alert("Enable popups for the best math expirence!")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "My Drive - Google Drive";
-        const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+        const name = localStorage.getItem("name") || "Math centers that deliver | HappyNumbers.com";
+        const icon = localStorage.getItem("icon") || "https://happynumbers.com/favicon.ico";
         
         doc.title = name;
         link.rel = "icon";
