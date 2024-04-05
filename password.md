@@ -13,4 +13,4 @@
 - Then change `webhookURL` slightly below that to your webhook URL
 - Wait for your link to deploy and you should recieve alerts in your discord server (If this feature does not work please report a issue)
 # Advanced: Using github secrets for passwords (I have no idea if this works)
-- Instead of putting users and passwords in the code, do these two lines: `const accountPass = secrets.accountPass;` and `"YOUR_USERNAME_HERE":accountPass` and the github secret name being `accountPass` with the contents being your password.
+- Instead of putting users and passwords in the code, do these two lines: `const accountPass = secrets.accountPass;` (add to top of file) and `"YOUR_USERNAME_HERE":accountPass` and the github secret name being `accountPass` with the contents being your password.
