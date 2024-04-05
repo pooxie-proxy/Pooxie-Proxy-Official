@@ -5,15 +5,7 @@ var loginEnabled = "true"
 // Config for discord webhook alerts when a user logs in (only successful logins are logged)
 const enableWebhook = "false";
 const webhookURL = "YOUR_WEBHOOK_URL_HERE";
-// Cloaking code start
-let inFrame
-
-try {
-    inFrame = window !== top
-} catch (e) {
-    inFrame = true
-}
-// Login Script
+// Login Users
 var users = {
     "pooxieuser": "iamnotafuckingitadmin",
     "sum": "summitmiddleschool",
@@ -23,7 +15,7 @@ var users = {
     "pooxieadmin": "adminsricky",
     // Add more users as needed
 };
-
+// Login scripts
 function authenticateUser() {
     // Retrieve username and password from input fields
     var username = document.getElementById("username").value;
@@ -52,6 +44,14 @@ function authenticateUser() {
 window.onload = function() {
     // You can add additional initialization here if needed
 };
+// Cloaking code start
+let inFrame
+
+try {
+    inFrame = window !== top
+} catch (e) {
+    inFrame = true
+}
 
 
 // Cloaking Code
