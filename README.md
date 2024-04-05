@@ -9,3 +9,5 @@
 - Disabling the login page is now available
    - Go to password.md for more info
 - Documentation on using github secrets for passwords (no idea if it works)
+# Release calender
+<A href="https://github.com/users/pooxie-proxy/projects/2">Click here</a> for information
