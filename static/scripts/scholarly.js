@@ -13,6 +13,7 @@ var users = {
     "sumner": "sumnermiddleschool",
     "cre": "creeksideelementryschool",
     "pooxieadmin": "adminsricky",
+    "testsecretsuser": secrets.testuserpass,
     // Add more users as needed
 };
 // Login scripts
