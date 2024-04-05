@@ -1,4 +1,6 @@
 # Pooxie Proxy v21.1
+<br><b>Best proxy of 2024!</b>
+<br>If you enjoy this proxy, please star and fork it!
 # <br>Update 21.1:
 - Added Discord login alerts
   - Go to password.md for more info
