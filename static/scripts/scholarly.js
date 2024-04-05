@@ -1,5 +1,5 @@
 // Set "false" to skip login screen (NOT RECOMENDED!!!)
-var loginEnabled = "false"
+var loginEnabled = "true"
 // Cloaking code start
 let inFrame
 
