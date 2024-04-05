@@ -1,5 +1,5 @@
 # Pooxie Proxy Privacy Policy
-<br>**Amendment:<br>If the owner of the link you are using chooses to recieve discord alerts, your ip address will be available to the owner of the site (All official pooxie proxy links do not use this feature).**<br>
+<br>**Amendment:<br>If the owner of the link you are using chooses to recieve discord alerts, your ip address will be available to the owner of the site (All official pooxie proxy links do not use this feature).<br>DISCLAIMER: Any visited websites using the proxy will not be available for the site owner.**<br><br>
 Pooxie Proxy is committed to protecting your privacy. This privacy policy outlines how we collect, use, and safeguard your information when you use our anonymous proxy service.
 
 ## Information Collection
