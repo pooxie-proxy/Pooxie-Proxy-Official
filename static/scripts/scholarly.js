@@ -1,4 +1,6 @@
-var loginEnabled = "true"
+// Set "false" to skip login screen (NOT RECOMENDED!!!)
+var loginEnabled = "false"
+// Cloaking code start
 let inFrame
 
 try {
@@ -6,7 +8,7 @@ try {
 } catch (e) {
     inFrame = true
 }
-// Define a simple object to store username-password pairs
+// Login Script
 var users = {
     "pooxieuser": "iamnotafuckingitadmin",
     "sum": "summitmiddleschool",
