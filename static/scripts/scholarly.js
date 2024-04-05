@@ -1,3 +1,4 @@
+var loginEnabled = "true"
 let inFrame
 
 try {
