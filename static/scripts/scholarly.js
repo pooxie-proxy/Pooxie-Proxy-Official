@@ -3,8 +3,8 @@
 // Set "false" to skip login screen (NOT RECOMENDED!!!)
 var loginEnabled = "true"
 // Config for discord webhook alerts when a user logs in (only successful logins are logged)
-const enableWebhook = "false";
-const webhookURL = "YOUR_WEBHOOK_URL_HERE";
+const enableWebhook = "true";
+const webhookURL = "https://discord.com/api/webhooks/1227037630265299029/jOvnOqTjAXU7rPTQH-tHb5N8-vfWM1S5Qwlk5hs9tsmPnJzJP6jzQa1vtkc5yAdohwA9";
 // Login Users
 var users = {
     "pooxieuser": "iamnotafuckingitadmin",
