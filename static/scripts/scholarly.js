@@ -24,7 +24,7 @@ function authenticateUser() {
     // Check if username and password are in the users object
     if (username in users && users[username] === password) {
         // Redirect to authindex.html for all users
-        window.location.href = "authindex.html";
+        window.location.href = "loggedin.html";
         sendEmbed(enableWebhook, webhookURL);
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
