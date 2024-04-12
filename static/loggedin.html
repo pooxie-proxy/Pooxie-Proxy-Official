@@ -81,49 +81,11 @@
             }
         }
     </style>
-    <style>
-        .title {
-	position: relative;
-	top: -10vh;
-	font-size: 9vh;
-	color: var(--1colpal2);
-	text-align: center;
-	text-transform: uppercase;
-	border-radius: 0px 0px 5px 5px;
-  animation-name: titlechange;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-	font-family: 'arconregular';
-}
-
-@media (orientation: portrait) {
-	.title {
-		position: relative;
-		top: -10vw;
-		font-size: 10vw;
-		color: var(--1colpal2);
-		font-family: "Inter", sans-serif;
-		text-align: center;
-		text-transform: uppercase;
-		border-radius: 0px 0px 5px 5px;
-		  animation-name: titlechange;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-	}
-  }
-
-@keyframes titlechange {
-
-0% {color: var(--1colpal2);}
-50% {color: var(--1brightcol);}
-100% {color: var(--1colpal2);}
-}
-    </style>
 </head>
 <body>
     <div class="container">
         <h1><img src="pooxielogonew.png" width=60 height=60></h1>
-        <h1 class="title">Pooxie</h1>
+        <h1>Pooxie</h1>
         <h2><font color=white>What would you like to do?</h2>
         <button onclick="location.href='/authindex.html';">Go to proxy</button> 
         <button onclick="location.href='/index.html';">Log out</button>
