@@ -21,3 +21,10 @@ if (myCookie == "") {
     // Redirect to index.html if the cookie doesn't exist
     window.location.href = "502.html";
 }
+// Function to create a cookie
+function setCookie(cookieName, cookieValue, expiryDays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (expiryDays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
+}
