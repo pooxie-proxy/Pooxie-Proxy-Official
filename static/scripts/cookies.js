@@ -19,5 +19,5 @@ function getCookie(cookieName) {
 var myCookie = getCookie("loggedin");
 if (myCookie == "") {
     // Redirect to index.html if the cookie doesn't exist
-    window.location.href = "index.html";
+    window.location.href = "502.html";
 }
