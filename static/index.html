@@ -6,30 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Centers That Deliver | HappyNumbers.com</title>
     <link rel="icon" type="image/x-icon" href="https://happynumbers.com/favicon.ico">
-    <script>// Function to get the value of a cookie
-function getCookie(cookieName) {
-    var name = cookieName + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var cookieArray = decodedCookie.split(';');
-    for (var i = 0; i < cookieArray.length; i++) {
-        var cookie = cookieArray[i];
-        while (cookie.charAt(0) == ' ') {
-            cookie = cookie.substring(1);
-        }
-        if (cookie.indexOf(name) == 0) {
-            return cookie.substring(name.length, cookie.length);
-        }
-    }
-    return "";
-}
-
-// Check if the cookie exists
-var myCookie = getCookie("loggedin:38278237849328472394723234242343");
-if (myCookie !== "") {
-    // Redirect to loggedin.html if the cookie exists
-    window.location.href = "loggedin.html";
-}
-</script>
     <style>
         /* General styles */
         * {
@@ -121,6 +97,30 @@ if (myCookie !== "") {
         }
     </style>
 </head>
+<script>// Function to get the value of a cookie
+function getCookie(cookieName) {
+    var name = cookieName + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var cookieArray = decodedCookie.split(';');
+    for (var i = 0; i < cookieArray.length; i++) {
+        var cookie = cookieArray[i];
+        while (cookie.charAt(0) == ' ') {
+            cookie = cookie.substring(1);
+        }
+        if (cookie.indexOf(name) == 0) {
+            return cookie.substring(name.length, cookie.length);
+        }
+    }
+    return "";
+}
+
+// Check if the cookie exists
+var myCookie = getCookie("loggedin:38278237849328472394723234242343");
+if (myCookie !== "") {
+    // Redirect to loggedin.html if the cookie exists
+    window.location.href = "loggedin.html";
+}
+</script>
 <body>
   <container>
       <img src="happynumbers.png" height=100 width=100>
