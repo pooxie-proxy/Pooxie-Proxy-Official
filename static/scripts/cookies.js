@@ -15,12 +15,6 @@ function getCookie(cookieName) {
     return "";
 }
 
-// Check if the cookie exists
-var myCookie = getCookie("loggedin:38278237849328472394723234242343");
-if (myCookie == "") {
-    // Redirect to index.html if the cookie doesn't exist
-    window.location.href = "502.html";
-}
 // Function to create a cookie
 function setCookie(cookieName, cookieValue, expiryDays) {
     var d = new Date();
