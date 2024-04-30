@@ -1,0 +1,19 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker login  -u koijas -p dckr_pat_JPp8HOBFBW_Aq6bP-MiDgSGRQBw
+      run: docker build . --file Dockerfile --tag v1.0:$(date +%s)
