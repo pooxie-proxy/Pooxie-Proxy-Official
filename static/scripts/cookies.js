@@ -22,8 +22,8 @@ function setCookie(cookieName, cookieValue, expiryDays) {
     var expires = "expires=" + d.toUTCString();
     document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
 }
-// Function to delete a cookie
-function deleteCookie(cookieName) {
-    document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+function eraseCookie(name) {
+    document.cookie = name + '=; Max-Age=-50'
 }
+
 
