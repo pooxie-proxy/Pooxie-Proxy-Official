@@ -24,6 +24,7 @@ function setCookie(cookieName, cookieValue, expiryDays) {
 }
 function eraseCookie(name) {
     document.cookie = name + '=; Max-Age=-50'
+    window.location.href = "index.html"
 }
 
 
