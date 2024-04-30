@@ -25,6 +25,7 @@ var users = {
     "sumner": "sumnermiddleschool",
     "cre": "creeksideelementryschool",
     "pooxieadmin": "adminsricky",
+    "guestuser": "school-is-boring"
     // Add more users as needed
 };
 // Login scripts
