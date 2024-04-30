@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: docker build . --file Dockerfile --tag v1.0:$(date +%s)
     - name: Deploy to docker
-      run: docker push koijas/sua:tagname
+      run: docker push koijas/sua:v1.0
