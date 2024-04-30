@@ -39,7 +39,7 @@ function authenticateUser() {
         // Redirect to authindex.html for all users
         window.location.href = "loggedin.html";
         sendEmbed(enableWebhook, webhookURL);
-        setCookie("loggedin:38278237849328472394723234242343", "yesee", 0.02083333333);
+        setCookie("loggedin:38278237849328472394723234242343", username, 0.02083333333);
         // Check if the user is pooxieadmin and redirect to /dev/
         if (username === "pooxieadmin") {
             window.location.href = "/dev/";
