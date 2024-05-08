@@ -15,12 +15,6 @@ function getCookie(cookieName) {
     return "";
 }
 
-// Check if the cookie exists
-var myCookie = getCookie("loggedin:38278237849328472394723234242343");
-if (myCookie == "") {
-    // Redirect to index.html if the cookie doesn't exist
-    window.location.href = "502.html";
-}
 // Function to create a cookie
 function setCookie(cookieName, cookieValue, expiryDays) {
     var d = new Date();
@@ -28,8 +22,9 @@ function setCookie(cookieName, cookieValue, expiryDays) {
     var expires = "expires=" + d.toUTCString();
     document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
 }
-// Function to delete a cookie
-function deleteCookie(cookieName) {
-    document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+function eraseCookie(name) {
+    document.cookie = name + '=; Max-Age=-50'
+    window.location.href = "index.html"
 }
+
 
